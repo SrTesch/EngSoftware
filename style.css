@@ -1,0 +1,113 @@
+/* 
+comentarios unicamente para o css passar o numero de linhas 
+do html kkkkk
+ */
+
+header{
+    text-align: center;
+    font-size: 1.6em;
+}
+
+body{
+    margin: 0%;
+}
+
+body p{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+
+::-webkit-scrollbar-track{
+    background: #000000de;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #3c6ef7ea;
+}
+
+main{
+    font-size: 1.8em;
+}
+
+section.imagem{
+    background-color: rgb(56, 55, 55);
+    color: white;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.555);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ol#inl{
+    text-align: center;
+}
+
+ol#luc{
+    margin-left: 30px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+ol#inl > li{
+    display: inline;
+    margin-left: 25px;
+}
+
+section.imagem > p , section.imagem > h2, section.imagem > ol{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.507);
+    padding: 5px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    border-radius: 15px;
+}
+
+h2{
+    text-align: center;
+}
+
+section#img1{
+    background-image: url(images/fundo1.jpg);
+    background-position: left top;
+}
+
+section#img2{
+    background-image: url(images/fundo2.jpg);
+    background-position: left top;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > span {
+    transition-duration: .5s;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 1px;
+}
+
+footer > span:hover{
+    background-color: white;
+    color: black;
+}
+
+footer > a{
+    transition-duration: .5s;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 1px;
+    text-decoration: none;
+    color: white;
+}
+
+footer> a#hover1:hover{
+    background-color: white;
+    color: black;
+    text-decoration: underline;
+}
